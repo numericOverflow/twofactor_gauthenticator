@@ -12,8 +12,12 @@ $rcmail_config['allow_save_device_30days'] = true;
 
 // Make the 2-step field a masked password input type
 // Default: form field will be text (false)
+<<<<<<< HEAD
 <<<<<<< master
 $rcmail_config['twofactor_formfield_as_password'] = false;
 =======
 $rcmail_config['twofactor_formfield_as_password'] = false;
 >>>>>>> Rework form display code with new config settings
+=======
+$rcmail_config['twofactor_formfield_as_password'] = false;
+>>>>>>> start
