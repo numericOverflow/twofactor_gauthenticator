@@ -12,9 +12,15 @@ if (window.rcmail) {
 
 	//determine twofactor field type based on config settings
 	if(rcmail.env.twofactor_formfield_as_password)
+<<<<<<< master
 		var twoFactorCodeFieldType = 'password'
 	else
 		var twoFactorCodeFieldType = 'text'
+=======
+		var twoFactorCodeFieldType = 'password';
+	else
+		var twoFactorCodeFieldType = 'text';
+>>>>>>> Rework form display code with new config settings
 	
 	//twofactor input form
     var text = '';
